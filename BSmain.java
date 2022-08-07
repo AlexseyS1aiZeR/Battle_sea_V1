@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class BSmain {
+class BSmain {
 
 
     public static void main(String[] args) {
@@ -28,7 +28,7 @@ class BattleSeaV_1 {
         String result = "Miss";
         for (int Cell : locationCells) {
             if (guess == Cell) {
-                numOfHits = numOfHits++;
+                 numOfHits++;
                 result = "Hit";
                 // break;
             }
